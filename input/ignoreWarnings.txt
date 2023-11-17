@@ -1,0 +1,5 @@
+== Suppressed Messages ==
+
+#  example implemented but not recognized
+#  === http:​/​/hl7​.eu​/fhir​/laboratory​/StructureDefinition​/HumanName-obl-eu-lab
+
