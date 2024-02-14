@@ -3,7 +3,7 @@ canonical: http://hl7.eu/fhir/r4/extensions
 name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions speciifed for the European REALM.
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 version: 0.1.0-ci # 
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
