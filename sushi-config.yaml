@@ -1,20 +1,20 @@
-id: hl7.fhir.eu.extensions.r4
-canonical: http://hl7.eu/fhir/r4/extensions
+id: hl7.fhir.eu.extensions
+canonical: http://hl7.eu/fhir/extensions
 name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions speciifed for the European REALM.
 status: active # draft | active | retired | unknown
-version: 0.1.0-ci # 
+version: 0.1.0 # 
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # https://www.hl7.org/fhir/valueset-jurisdiction.html
 jurisdiction: 	http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe" # urn:iso:std:iso:3166#EU
 publisher:
   name:  HL7 Europe
- # url: http://hl7.eu
-  url: http://hl7.org/Special/committees/eu
+  url: http://hl7.eu
+  # url: http://hl7.org/Special/committees/eu
   # email: test@example.org
 copyright: >-
   Used by permission of HL7 Europe, all rights reserved Creative Commons License
@@ -65,8 +65,8 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
   special-url:
     - http://hl7.eu/fhir/StructureDefinition/information-recipient
     - http://hl7.eu/fhir/StructureDefinition/composition-basedOn-order-or-requisition
-    - http://hl7.eu/fhir/StructureDefinition/body-location-qualifier
-    - http://hl7.eu/fhir/StructureDefinition/laterality-qualifier
+#    - http://hl7.eu/fhir/StructureDefinition/body-location-qualifier
+#    - http://hl7.eu/fhir/StructureDefinition/laterality-qualifier
 
 # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 # path-resource:
