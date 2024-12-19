@@ -16,6 +16,7 @@
 <artifact id="StructureDefinition/ihe-ext-medication-strengthsubstance" key="StructureDefinition-ihe-ext-medication-strengthsubstance" name="Medication - Strength substance"/>
 <artifact id="StructureDefinition/ihe-ext-medication-strengthtype" key="StructureDefinition-ihe-ext-medication-strengthtype" name="Medication - Strength type"/>
 <artifact id="StructureDefinition/ihe-ext-medication-unitofpresentation" key="StructureDefinition-ihe-ext-medication-unitofpresentation" name="Medication - Unit of presentation"/>
+<artifact id="StructureDefinition/prescribed-quantity" key="StructureDefinition-prescribed-quantity" name="Overall prescribed quantity"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

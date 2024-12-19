@@ -1,3 +1,6 @@
+// Extension: MedicationDevice - separate for R4 and R5 due to CodeableReference
+// StrengthSubstance separate for R4 and R5 due to strength[x] element
+// StrengthType separate for R4 and R5 due to strength[x] element
 
 Extension: MedicationDevice
 Id:        ihe-ext-medication-device
@@ -70,6 +73,7 @@ Extension: MedicationCharacteristic
 Id:        ihe-ext-medication-characteristic
 Title:     "Medication - Characteristic"
 Description: "Any characteristic of the medicinal product prescribed or dispensed (for example, price, textual package description, special program information, etc)"
+Context: Medication
 
 * ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-characteristic"
 * extension contains
@@ -90,8 +94,13 @@ Description: "Unit of presentation, typically describing the smallest countable 
 * value[x] only CodeableConcept 
 * valueCodeableConcept 1..1
 
-// Extension: MedicationDevice - separate for R4 and R5 due to CodeableReference
-// StrengthSubstance separate for R4 and R5 due to strength[x] element
-// StrengthType separate for R4 and R5 due to strength[x] element
 
 
+Extension: PrescribedQuantity
+Id: prescribed-quantity
+Title: "Overall prescribed quantity"
+Description: "This extension applies to the MedicationRequest resource for marking the overall prescribed quantity (e.g. number of packages)."
+Context: MedicationRequest.dispenseRequest
+
+* ^url = "http://hl7.eu/fhir/StructureDefinition/prescribed-quantity"
+* value[x] only Quantity	
