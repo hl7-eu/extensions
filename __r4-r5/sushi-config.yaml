@@ -1,11 +1,22 @@
+[r4-init]
 id: hl7.fhir.eu.extensions
+[r4-end]
+[r5-init]
+id: hl7.fhir.eu.extensions.r5
+[r5-end]
+
 canonical: http://hl7.eu/fhir/extensions
 name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions speciifed for the European REALM.
 status: draft # draft | active | retired | unknown
 version: 0.1.1 # 
+[r4-init]
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+[r4-end]
+[r5-init]
+fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+[r5-end]
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
@@ -18,11 +29,13 @@ publisher:
   # email: test@example.org
 copyright: >-
   Used by permission of HL7 Europe, all rights reserved Creative Commons License
+
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 # dependencies:
+  
   # hl7.fhir.extensions.r5: 4.0.1
 #   hl7.fhir.us.mcode:
 #     id: mcode
@@ -46,6 +59,7 @@ pages:
     title: Home 
   downloads.md:
     title: Downloads
+    
  #  recommendations.md:
 #    title: Recommendations
 #
@@ -63,8 +77,23 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
     - http://hl7.eu/fhir/StructureDefinition/information-recipient
     - http://hl7.eu/fhir/StructureDefinition/composition-basedOn-order-or-requisition
     - http://hl7.eu/fhir/StructureDefinition/prescribed-quantity
+
+[r5-init]
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-device
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-strengthsubstance
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-strengthtype
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-classification
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-productname
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-sizeofitem
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-characteristic
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-unitofpresentation
+[r5-end]
+
+
+
 #    - http://hl7.eu/fhir/StructureDefinition/body-location-qualifier
 #    - http://hl7.eu/fhir/StructureDefinition/laterality-qualifier
+
 # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 # path-resource:
 #    - input/resources
@@ -97,6 +126,7 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
  # version-comparison:
  #    - 5.0.1
  #    - 4.0.0
+
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
@@ -113,6 +143,8 @@ menu:
   Table of Contents: toc.html
   Artifacts: artifacts.html  
   Downloads: downloads.html
+  
+
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │
@@ -162,15 +194,20 @@ menu:
 #     better option (see below).
 # The following are simple examples to demonstrate what this might
 # look like:
+
 # resources:
 #  ConceptMap/ConceptMap-eu-diagRptStatus2CompStatus:
 #    name: DiagnosticReport to Composition status
 #    description: Proposed relationship between the statuses used in the DiagnosticReport resource and that used for the Composition.
+
+
 #  Patient/my-example-patient:
 #    name: My Example Patient
 #    description: An example Patient
 #    exampleBoolean: true
 #  Patient/bad-example: omit
+
+
 #
 # Groups can control certain aspects of the IG generation.  The IG
 # documentation recommends that authors use the default groups that
@@ -224,6 +261,7 @@ menu:
 #
 # The instanceOptions property is used to configure certain aspects of how SUSHI processes instances.
 # See the individual option definitions below for more detail.
+
 instanceOptions:
   manualSliceOrdering: true
 #
