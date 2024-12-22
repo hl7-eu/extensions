@@ -1,7 +1,7 @@
 // Extension: MedicationDevice - separate for R4 and R5 due to CodeableReference
 // StrengthSubstance separate for R4 and R5 due to strength[x] element
 // StrengthType separate for R4 and R5 due to strength[x] element
-[r5-init]
+[r4-init]
 Extension: MedicationDevice
 Id:        ihe-ext-medication-device
 Title:     "Medication - Device"
@@ -94,7 +94,7 @@ Description: "Unit of presentation, typically describing the smallest countable 
 * value[x] only CodeableConcept 
 * valueCodeableConcept 1..1
 
-[r5-end]
+[r4-end]
 
 
 
