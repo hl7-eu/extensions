@@ -40,6 +40,10 @@ Alias: $v3-ClassNullFlavor = http://terminology.hl7.org/ValueSet/v3-ClassNullFla
 Alias: $results-laboratory-observations-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips
 Alias: $results-coded-values-laboratory-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/results-coded-values-laboratory-uv-ips
 Alias: $bodystructure-relative-location = http://hl7.org/fhir/ValueSet/bodystructure-relative-location
+Alias: $atcVS = http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips // IHE R5 uses HL7 ValueSet from R5
+Alias: $substanceSCT = http://hl7.org/fhir/uv/ips/ValueSet/medicine-active-substances-uv-ips // IHE R5 uses HL7 ValueSet from R5
+//Alias: $unitOfPresentation = http://hl7.org/fhir/ValueSet/unit-of-presentation // Unit of presentation value set by HL7, uses EMA SPOR RMS codes defined as a HL7 code system.
+Alias: $medication-characteristic = http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic // MedicationKnowledge drug characteristic binding value set
 
 // ---- Extensions
 

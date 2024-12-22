@@ -6,7 +6,8 @@ Extension: MedicationDevice
 Id:        ihe-ext-medication-device
 Title:     "Medication - Device"
 Description: "Device, typically an administration device, included in the medicinal product."
-// Extension on Medication
+Context: Medication
+
 * ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-device"
 * extension contains
     device 1..1 and
@@ -14,7 +15,7 @@ Description: "Device, typically an administration device, included in the medici
 * extension[device].value[x] only CodeableConcept or Reference(Device or DeviceDefinition)
 * extension[device] ^short = "Coded or referenced device"
 * extension[quantity].value[x] only Quantity
-* extension[quantity] ^short = "Number of defined devices in te package"
+* extension[quantity] ^short = "Number of defined devices in the package"
 
 Extension: MedicationStrengthSubstance
 Id: ihe-ext-medication-strengthsubstance
@@ -24,7 +25,7 @@ Context: Medication.ingredient.strength
 * ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-strengthsubstance"
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
-
+* valueCodeableConcept from $substanceSCT (example)
 
 Extension: MedicationStrengthType
 Id: ihe-ext-medication-strengthtype
@@ -35,6 +36,7 @@ Context: Medication.ingredient.strength
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
 
+
 Extension: MedicationClassification
 Id:        ihe-ext-medication-classification
 Title:     "Medication - Classification"
@@ -44,6 +46,7 @@ Description: "Medication classification/category. Allows the product to be class
 * ^context[+].type = #element
 * ^context[=].expression = "Medication"
 * value[x] only CodeableConcept 
+* valueCodeableConcept from $atcVS (example)
 
 
 Extension: MedicationProductName
@@ -80,6 +83,7 @@ Context: Medication
     type 1..1 and
     value 0..1
 * extension[type].value[x] only CodeableConcept
+* extension[type].valueCodeableConcept from $medication-characteristic (example)
 * extension[type] ^short = "Code specifying the type of characteristic of medication"
 * extension[value] ^short = "Descriptive value of the characteristic"
 
@@ -93,6 +97,7 @@ Description: "Unit of presentation, typically describing the smallest countable 
 * ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-unitofpresentation"
 * value[x] only CodeableConcept 
 * valueCodeableConcept 1..1
+//* valueCodeableConcept from $unitOfPresentation (example)
 
 
 
