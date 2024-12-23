@@ -8,6 +8,14 @@
 <artifact id="Composition/comp-example" key="Composition-comp-example" name="Composition: example with InformationRecipient and CompositionBasedOnOrderOrRequisition extensions"/>
 <artifact id="StructureDefinition/composition-basedOn-order-or-requisition" key="StructureDefinition-composition-basedOn-order-or-requisition" name="Document Based On Order"/>
 <artifact id="StructureDefinition/information-recipient" key="StructureDefinition-information-recipient" name="Information recipient"/>
+<artifact id="StructureDefinition/ihe-ext-medication-characteristic" key="StructureDefinition-ihe-ext-medication-characteristic" name="Medication - Characteristic"/>
+<artifact id="StructureDefinition/ihe-ext-medication-classification" key="StructureDefinition-ihe-ext-medication-classification" name="Medication - Classification"/>
+<artifact id="StructureDefinition/ihe-ext-medication-device" key="StructureDefinition-ihe-ext-medication-device" name="Medication - Device"/>
+<artifact id="StructureDefinition/ihe-ext-medication-productname" key="StructureDefinition-ihe-ext-medication-productname" name="Medication - Product Name"/>
+<artifact id="StructureDefinition/ihe-ext-medication-sizeofitem" key="StructureDefinition-ihe-ext-medication-sizeofitem" name="Medication - Size of Item"/>
+<artifact id="StructureDefinition/ihe-ext-medication-strengthsubstance" key="StructureDefinition-ihe-ext-medication-strengthsubstance" name="Medication - Strength substance"/>
+<artifact id="StructureDefinition/ihe-ext-medication-strengthtype" key="StructureDefinition-ihe-ext-medication-strengthtype" name="Medication - Strength type"/>
+<artifact id="StructureDefinition/ihe-ext-medication-unitofpresentation" key="StructureDefinition-ihe-ext-medication-unitofpresentation" name="Medication - Unit of presentation"/>
 <artifact id="StructureDefinition/prescribed-quantity" key="StructureDefinition-prescribed-quantity" name="Overall prescribed quantity"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>

@@ -1,11 +1,11 @@
-id: hl7.fhir.eu.extensions.r5
+id: hl7.fhir.eu.extensions
 canonical: http://hl7.eu/fhir/extensions
 name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions speciifed for the European REALM.
 status: draft # draft | active | retired | unknown
 version: 0.1.1 # 
-fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
@@ -63,14 +63,6 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
     - http://hl7.eu/fhir/StructureDefinition/information-recipient
     - http://hl7.eu/fhir/StructureDefinition/composition-basedOn-order-or-requisition
     - http://hl7.eu/fhir/StructureDefinition/prescribed-quantity
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-device
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-strengthsubstance
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-strengthtype
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-classification
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-productname
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-sizeofitem
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-characteristic
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-unitofpresentation
 #    - http://hl7.eu/fhir/StructureDefinition/body-location-qualifier
 #    - http://hl7.eu/fhir/StructureDefinition/laterality-qualifier
 # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters

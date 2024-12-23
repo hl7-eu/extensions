@@ -17,6 +17,7 @@ Usage: #example
 * date = "2022-10-25T14:30:00+01:00"
 * author[+].display = "MUDr. Aleš Procházka"
 * title = "Laboratory Report Test"
+* confidentiality = #N
 * attester[+].mode = #legal
 * attester[=].time = "2020-12-27T14:30:00+01:00"
 * attester[=].party.display = "Best Laboratory"
