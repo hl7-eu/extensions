@@ -17,6 +17,10 @@ Alias: $results-coded-values-laboratory-uv-ips = http://hl7.org/fhir/uv/ips/Valu
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 Alias: $medication-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/medication-uv-ips
 Alias: $eHDSIPersonalRelationship = http://terminology.ehdsi.eu/ValueSet/eHDSIPersonalRelationship
+Alias: $atcVS = http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips // IHE R5 uses HL7 ValueSet from R5
+Alias: $substanceSCT = http://hl7.org/fhir/uv/ips/ValueSet/medicine-active-substances-uv-ips // IHE R5 uses HL7 ValueSet from R5
+//Alias: $unitOfPresentation = http://hl7.org/fhir/ValueSet/unit-of-presentation // Unit of presentation value set by HL7, uses EMA SPOR RMS codes defined as a HL7 code system.
+Alias: $medication-characteristic = http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic // MedicationKnowledge drug characteristic binding value set
 // --- Profiles
 Alias: $Specimen-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Specimen-uv-ips
 Alias: $Composition-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
