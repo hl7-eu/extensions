@@ -99,6 +99,7 @@ Context: Medication
 * ^url = "http://hl7.eu/fhir/StructureDefinition/package-type"
 * value[x] only CodeableConcept
 * valueCodeableConcept from $eHDSIPackage (example)	
+* valueCodeableConcept ^short = "Type of container, e.g pre-filled syringe, unit-dose blister, sachet, etc."
 Extension: PrescribedQuantity
 Id: prescribed-quantity
 Title: "Overall prescribed quantity"
@@ -106,3 +107,4 @@ Description: "This extension applies to the MedicationRequest resource for marki
 Context: MedicationRequest.dispenseRequest
 * ^url = "http://hl7.eu/fhir/StructureDefinition/prescribed-quantity"
 * value[x] only Quantity	
+* valueQuantity ^short = "Overall quantity of the prescribed product. It may be number of packages or the quantity in other explicitly stated units."
