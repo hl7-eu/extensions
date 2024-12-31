@@ -92,6 +92,16 @@ Description: "Unit of presentation, typically describing the smallest countable 
 * valueCodeableConcept 1..1
 * valueCodeableConcept from $unitOfPresentation (example)
 
+Extension: MedicationRequestPrescribedQuantity
+Id:        ihe-ext-medicationrequest-prescribedQuantity
+Title:     "MedicationRequest - Prescribed Quantity"
+Description: "Total amount of product being requested. This may refer to number of packages when package size is indicated in Medication resource."
+Context: MedicationRequest.dispenseRequest
+
+* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity"
+* value[x] only Quantity	
+* valueQuantity ^short = "Overall quantity of the prescribed product. It may be number of packages or the quantity in other explicitly stated units."
+
 [r4-end]
 
 Extension: PackageType
@@ -106,12 +116,3 @@ Context: Medication
 * valueCodeableConcept ^short = "Type of container, e.g pre-filled syringe, unit-dose blister, sachet, etc."
 
 
-Extension: PrescribedQuantity
-Id: prescribed-quantity
-Title: "Overall prescribed quantity"
-Description: "This extension applies to the MedicationRequest resource for marking the overall prescribed quantity (e.g. number of packages)."
-Context: MedicationRequest.dispenseRequest
-
-* ^url = "http://hl7.eu/fhir/StructureDefinition/prescribed-quantity"
-* value[x] only Quantity	
-* valueQuantity ^short = "Overall quantity of the prescribed product. It may be number of packages or the quantity in other explicitly stated units."
