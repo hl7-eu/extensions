@@ -90,7 +90,7 @@ Description: "Unit of presentation, typically describing the smallest countable 
 * ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-unitofpresentation"
 * value[x] only CodeableConcept 
 * valueCodeableConcept 1..1
-* valueCodeableConcept from $unitOfPresentation (example)
+* valueCodeableConcept from $eHDSIQuantityUnit (example)
 
 Extension: MedicationRequestPrescribedQuantity
 Id:        ihe-ext-medicationrequest-prescribedQuantity

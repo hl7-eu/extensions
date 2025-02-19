@@ -24,6 +24,7 @@ Alias: $eHDSIPersonalRelationship = http://terminology.ehdsi.eu/ValueSet/eHDSIPe
 Alias: $atcVS = http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips // IHE R5 uses HL7 ValueSet from R5
 Alias: $substanceSCT = http://hl7.org/fhir/uv/ips/ValueSet/medicine-active-substances-uv-ips // IHE R5 uses HL7 ValueSet from R5
 Alias: $unitOfPresentation = http://hl7.org/fhir/ValueSet/unit-of-presentation // Unit of presentation value set by HL7, uses EMA SPOR RMS codes defined as a HL7 code system.
+Alias: $eHDSIQuantityUnit = http://terminology.ehdsi.eu/ValueSet/eHDSIQuantityUnit // Unit of presentation
 Alias: $medication-characteristic = http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic // MedicationKnowledge drug characteristic binding value set
 Alias: $eHDSIPackage = http://terminology.ehdsi.eu/ValueSet/eHDSIPackage
 
