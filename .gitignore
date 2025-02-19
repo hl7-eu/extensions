@@ -37,3 +37,5 @@ Thumbs.db
 /scripts/config.json
 r4_preprocess.log
 _preprocess-r4.bat
+
+.gitignore
