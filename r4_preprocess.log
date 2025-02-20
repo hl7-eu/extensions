@@ -5,4 +5,8 @@ Transformed and saved: /workspace/hl7eu-extensions\input\fsh\alias-extensions.fs
 Transformed and saved: /workspace/hl7eu-extensions\input\fsh\alias-ig.fsh
 Transformed and saved: /workspace/hl7eu-extensions\input\fsh\alias-systems.fsh
 Transformed and saved: /workspace/hl7eu-extensions\input\fsh\examples\Examples.fsh
+Transformed and saved: /workspace/hl7eu-extensions\input\fsh\extensions\ConsentRelatedCondition.fsh
+Transformed and saved: /workspace/hl7eu-extensions\input\fsh\extensions\DocumentPresentedForm.fsh
+Transformed and saved: /workspace/hl7eu-extensions\input\fsh\extensions\EncounterLegalStatus.fsh
+Transformed and saved: /workspace/hl7eu-extensions\input\fsh\extensions\extensions-lab.fsh
 Transformed and saved: /workspace/hl7eu-extensions\input\fsh\extensions\extensions-mpd.fsh
