@@ -8,6 +8,8 @@ Description: "This extension provides a link to the order [(Reference(ServiceReq
 * insert ExtensionContext(Composition)
 * ^url = "http://hl7.eu/fhir/StructureDefinition/composition-basedOn-order-or-requisition"
 * value[x] only Reference (ServiceRequest) or Identifier
+
+
 Extension: InformationRecipient
 Id:   information-recipient
 Title: "Document Information recipient"
@@ -17,3 +19,4 @@ Description: "This extension applies to the Composition resource and is used to 
 * insert SetFmmandStatusRule ( 2, trial-use )
 * ^url = "http://hl7.eu/fhir/StructureDefinition/information-recipient"
 * value[x] only Reference (Practitioner or Device or Patient or RelatedPerson or PractitionerRole or Organization)	
+

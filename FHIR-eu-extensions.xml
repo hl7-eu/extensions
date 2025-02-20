@@ -8,8 +8,9 @@
 <artifact id="Composition/comp-example" key="Composition-comp-example" name="Composition: example with InformationRecipient and CompositionBasedOnOrderOrRequisition extensions"/>
 <artifact id="StructureDefinition/consent-relatedCondition" key="StructureDefinition-consent-relatedCondition" name="Consent Related Condition"/>
 <artifact id="StructureDefinition/composition-basedOn-order-or-requisition" key="StructureDefinition-composition-basedOn-order-or-requisition" name="Document Based On Order"/>
-<artifact id="StructureDefinition/encounter-legalStatus" key="StructureDefinition-encounter-legalStatus" name="Encounter Legal Status"/>
-<artifact id="StructureDefinition/information-recipient" key="StructureDefinition-information-recipient" name="Information recipient"/>
+<artifact id="StructureDefinition/information-recipient" key="StructureDefinition-information-recipient" name="Document Information recipient"/>
+<artifact id="StructureDefinition/presentedForm" key="StructureDefinition-presentedForm" name="Document Presented Form"/>
+<artifact id="StructureDefinition/encounter-legalStatus" key="StructureDefinition-encounter-legalStatus" name="Encounter - Legal Status"/>
 <artifact id="StructureDefinition/ihe-ext-medication-characteristic" key="StructureDefinition-ihe-ext-medication-characteristic" name="Medication - Characteristic"/>
 <artifact id="StructureDefinition/ihe-ext-medication-classification" key="StructureDefinition-ihe-ext-medication-classification" name="Medication - Classification"/>
 <artifact id="StructureDefinition/ihe-ext-medication-device" key="StructureDefinition-ihe-ext-medication-device" name="Medication - Device"/>
