@@ -57,12 +57,28 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
+
+
 pages:
   index.md:
-    title: Home 
+    title: Home
+  authors.md: 
+    title: Authors and Contributors
+  copyright.md:
+    title: Copyright
+  crossversionanalysis.md:
+    title: Cross-version Analysis
   downloads.md:
     title: Downloads
-    
+  dependencies.md:
+    title: Dependencies
+  knownissues.md:
+    title: Known Issues
+  introduction.md:
+    title: Introduction
+
+
+
  #  recommendations.md:
 #    title: Recommendations
 #
@@ -83,7 +99,7 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
     - http://hl7.eu/fhir/StructureDefinition/consent-relatedCondition
     - http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus
     - http://hl7.eu/fhir/StructureDefinition/presentedForm
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medicationrequest-offlabeluse
+
 
 [r4-init]
     - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-device
@@ -95,6 +111,7 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
     - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-characteristic
     - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-unitofpresentation
     - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity
+    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medicationrequest-offlabeluse
 [r4-end]
 
 
@@ -148,10 +165,33 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Table of Contents: toc.html
-  Artifacts: artifacts.html  
-  Downloads: downloads.html
-  
+  Introduction: introduction.html
+#    Scope and Content: scope.html
+#    Background: background.html
+#    Challenges: challenges.html
+#    References: references.html
+#  Functional:
+#    Use cases: usecases.html
+#    Logical Models: logicalmodels.html
+#   Workflow 
+#  Implementation:
+#    Mapping to Profiles: profiles.html
+#    Examples: examples.html
+#    Implementation Notes: implementationnotes.html  
+  About:
+    Authors and Contributors: authors.html
+    Known Issues: knownissues.html
+    Download: downloads.html
+    Dependencies: dependencies.html
+    Copyright: copyright.html
+    Cross-version Analysis: crossversionanalysis.html
+  Artifacts: artifacts.html
+  [r4-init]
+  R5 IG: https://build.fhir.org/ig/hl7-eu/extensions-r5
+  [r4-end]
+  [r5-init]
+  R4 IG: https://build.fhir.org/ig/hl7-eu/extensions
+  [r5-end]
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

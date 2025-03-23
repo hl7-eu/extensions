@@ -1,21 +1,15 @@
-
+{% include fsh-link-references.md %}
 
 ### Scope
 
-Define a set of common extensions to HL7 FHIR to be used in the European REALM.
+This guide aims to define a set of extensions by HL7 Europe for the EU realm. 
 
-### Dependencies
+This includes extensions defined for HL7 Europe implementation guides, such as: 
+- HL7 Europe Laboratory Report  
+- HL7 Europe Medication Prescription and Dispense  
+- HL7 Europe Hospital Discharge Report  
+- HL7 Europe Imaging Study Report
+- HL7 Europe European Patient Summary  
+- HL7 Europe Base  
+- etc
 
-{% include dependency-table.xhtml %}
-
-### Cross Version Analysis
-
-{% include cross-version-analysis.xhtml %}
-
-### Global Profiles
-
-{% include globals-table.xhtml %}
-
-### IP statements
-
-{% include ip-statements.xhtml %}

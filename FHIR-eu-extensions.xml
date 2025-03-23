@@ -20,11 +20,17 @@
 <artifact id="StructureDefinition/ihe-ext-medication-unitofpresentation" key="StructureDefinition-ihe-ext-medication-unitofpresentation" name="Medication - Unit of presentation"/>
 <artifact id="StructureDefinition/ihe-ext-medicationrequest-offlabeluse" key="StructureDefinition-ihe-ext-medicationrequest-offlabeluse" name="MedicationRequest - Off-label use"/>
 <artifact id="StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity" key="StructureDefinition-ihe-ext-medicationrequest-prescribedQuantity" name="MedicationRequest - Prescribed Quantity"/>
-<artifact id="StructureDefinition/package-type" key="StructureDefinition-package-type" name="Package type"/>
+<artifact id="StructureDefinition/medication-package-type" key="StructureDefinition-medication-package-type" name="Package type"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
+<page key="authors" name="Authors and Contributors"/>
+<page key="copyright" name="Copyright"/>
+<page key="crossversionanalysis" name="Cross-version Analysis"/>
+<page key="dependencies" name="Dependencies"/>
 <page key="downloads" name="Downloads"/>
 <page key="index" name="Home"/>
+<page key="introduction" name="Introduction"/>
+<page key="knownissues" name="Known Issues"/>
 <page key="toc" name="Table of Contents"/>
 </specification>
