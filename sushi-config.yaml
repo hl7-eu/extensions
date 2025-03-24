@@ -76,20 +76,20 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
   special-url:
     - http://hl7.eu/fhir/StructureDefinition/information-recipient
     - http://hl7.eu/fhir/StructureDefinition/composition-basedOn-order-or-requisition
-    - http://hl7.eu/fhir/StructureDefinition/package-type
+    - http://hl7.eu/fhir/StructureDefinition/medication-package-type
     - http://hl7.eu/fhir/StructureDefinition/consent-relatedCondition
     - http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus
     - http://hl7.eu/fhir/StructureDefinition/presentedForm
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-device
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-strengthsubstance
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-strengthtype
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-classification
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-productname
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-sizeofitem
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-characteristic
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-unitofpresentation
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity
-    - http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medicationrequest-offlabeluse
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthtype
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-classification
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-characteristic
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity
+    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-offLabel
 #    - http://hl7.eu/fhir/StructureDefinition/body-location-qualifier
 #    - http://hl7.eu/fhir/StructureDefinition/laterality-qualifier
 # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters

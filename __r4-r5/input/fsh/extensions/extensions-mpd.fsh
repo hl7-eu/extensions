@@ -8,7 +8,7 @@ Title:     "Medication - Device"
 Description: "Device, typically an administration device, included in the medicinal product."
 Context: Medication
 // Extension on Medication
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-device"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device"
 * extension contains
     device 1..1 and
     quantity 0..1
@@ -23,7 +23,7 @@ Id: ihe-ext-medication-strengthsubstance
 Title: "Medication - Strength substance"
 Description: "Substance for marking the basis of strength. When the precise active ingredient is a salt, the strength is often provided for the active moiety (basis of strength)."
 Context: Medication.ingredient.strength
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-strengthsubstance"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance"
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
 * valueCodeableConcept from $substanceSCT (example)
@@ -34,7 +34,7 @@ Id:        ihe-ext-medication-classification
 Title:     "Medication - Classification"
 Description: "Medication classification/category. Allows the product to be classified by various systems, e.g ATC, narcotic class, legal status of supply, etc.."
 
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-classification"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-classification"
 * ^context[+].type = #element
 * ^context[=].expression = "Medication"
 * value[x] only CodeableConcept 
@@ -46,7 +46,7 @@ Id:        ihe-ext-medication-productname
 Title:     "Medication - Product Name"
 Description: "Name of the medicinal product. This is typically the name of a real product as registered. This element should not contain display names of virtual product concepts."
 
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-productname"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname"
 * ^context[+].type = #element
 * ^context[=].expression = "Medication"
 * value[x] only string
@@ -59,7 +59,7 @@ Title:     "Medication - Size of Item"
 Description: "Size of a manufactured item or unit of presentation. For example, size of one vial in a package that may contain several vials."
 Context: Medication
 
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-sizeofitem"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem"
 * value[x] only Quantity
 * valueQuantity 1..1
 
@@ -70,7 +70,7 @@ Title:     "Medication - Characteristic"
 Description: "Any characteristic of the medicinal product prescribed or dispensed (for example, price, textual package description, special program information, etc)"
 Context: Medication
 
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-characteristic"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-characteristic"
 * extension contains
     type 1..1 and
     value 0..1
@@ -87,7 +87,7 @@ Title:     "Medication - Unit of presentation"
 Description: "Unit of presentation, typically describing the smallest countable package item (e.g tablet, vial, ampoule, etc). Unit of presentation is also often used in describing pack size and the denominator of strength. If the size of presentation unit is relevant, it should be described in sizeOfItem extension."
 * ^context[+].type = #element
 * ^context[=].expression = "Medication"
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medication-unitofpresentation"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation"
 * value[x] only CodeableConcept 
 * valueCodeableConcept 1..1
 * valueCodeableConcept from $eHDSIQuantityUnit (example)
@@ -98,13 +98,13 @@ Title:     "MedicationRequest - Prescribed Quantity"
 Description: "Total amount of product being requested. This may refer to number of packages when package size is indicated in Medication resource."
 Context: MedicationRequest.dispenseRequest
 
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity"
 * value[x] only Quantity	
 * valueQuantity ^short = "Overall quantity of the prescribed product. It may be number of packages or the quantity in other explicitly stated units."
 
-// TODO: When IHE PR is approved, move to R4 only
-Extension: OffLabelUse
-Id:        ihe-ext-medicationrequest-offlabeluse
+
+Extension: OffLabel
+Id:        ihe-ext-offLabel
 Title:     "MedicationRequest - Off-label use"
 Description: "Indicates that the order placer has knowingly prescribed the medication for an indication, age group, dosage, or route of administration that is not approved by the regulatory agencies and is not mentioned in the prescribing information for the product."
 
@@ -112,7 +112,7 @@ Description: "Indicates that the order placer has knowingly prescribed the medic
 * ^context[=].expression = "MedicationRequest"
 * ^context[+].type = #element
 * ^context[=].expression = "MedicationStatement"
-* ^url = "http://profiles.ihe.net/PHARM/ihe.pharm.mpd/StructureDefinition/ihe-ext-medicationrequest-offlabeluse"
+* ^url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-offLabel"
 * extension contains
     isOffLabelUse 1..1 and
     reason 0..*
@@ -125,7 +125,7 @@ Description: "Indicates that the order placer has knowingly prescribed the medic
 
 Extension: MedicationPackageType
 Id: medication-package-type
-Title: "Package type"
+Title: "Medication - Package type"
 Description: "This extension applies to Medication and expresses the type of the container for the product (e.g. bottle, unit-dose blister, pre-filled pen)."
 Context: Medication
 

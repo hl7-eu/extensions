@@ -18,7 +18,7 @@
 <artifact id="StructureDefinition/ihe-ext-medication-sizeofitem" key="StructureDefinition-ihe-ext-medication-sizeofitem" name="Medication - Size of Item"/>
 <artifact id="StructureDefinition/ihe-ext-medication-strengthsubstance" key="StructureDefinition-ihe-ext-medication-strengthsubstance" name="Medication - Strength substance"/>
 <artifact id="StructureDefinition/ihe-ext-medication-unitofpresentation" key="StructureDefinition-ihe-ext-medication-unitofpresentation" name="Medication - Unit of presentation"/>
-<artifact id="StructureDefinition/ihe-ext-medicationrequest-offlabeluse" key="StructureDefinition-ihe-ext-medicationrequest-offlabeluse" name="MedicationRequest - Off-label use"/>
+<artifact id="StructureDefinition/ihe-ext-offLabel" key="StructureDefinition-ihe-ext-offLabel" name="MedicationRequest - Off-label use"/>
 <artifact id="StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity" key="StructureDefinition-ihe-ext-medicationrequest-prescribedQuantity" name="MedicationRequest - Prescribed Quantity"/>
 <artifact id="StructureDefinition/medication-package-type" key="StructureDefinition-medication-package-type" name="Package type"/>
 <page key="NA" name="(NA)"/>
