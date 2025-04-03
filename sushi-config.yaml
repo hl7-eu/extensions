@@ -3,11 +3,11 @@ canonical: http://hl7.eu/fhir/extensions
 name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions speciifed for the European REALM.
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 version: 0.1.1 # 
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # https://www.hl7.org/fhir/valueset-jurisdiction.html
 jurisdiction: 	http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe" # urn:iso:std:iso:3166#EU
@@ -22,9 +22,8 @@ copyright: >-
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-dependencies:
-  
- hl7.fhir.uv.ips: current
+dependencies:  
+ hl7.fhir.uv.ips: 1.1.0
 # hl7.terminology.r5: current
 #   hl7.fhir.us.mcode:
 #     id: mcode
@@ -208,10 +207,11 @@ menu:
 #     better option (see below).
 # The following are simple examples to demonstrate what this might
 # look like:
-# resources:
-#  ConceptMap/ConceptMap-eu-diagRptStatus2CompStatus:
-#    name: DiagnosticReport to Composition status
-#    description: Proposed relationship between the statuses used in the DiagnosticReport resource and that used for the Composition.
+resources:
+  Medication/04A-FirmagonBranded:
+    name: FIRMAGON
+    description: Example of Medication resource implementing most of the IHE MPD extensions, documented in this guide for R4
+    exampleBoolean: true
 #  Patient/my-example-patient:
 #    name: My Example Patient
 #    description: An example Patient

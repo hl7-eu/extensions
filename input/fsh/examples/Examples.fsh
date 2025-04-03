@@ -8,6 +8,10 @@ Usage: #example
   * value = "document-order-1"
 * extension[InformationRecipient].valueReference
   * display = "MUDr. Aleš Procházka"
+* extension[DocumentPresentedForm].valueAttachment
+  * contentType = #application/pdf
+  * url = "http://example.org/attachment.pdf"
+  * title = "Attachment.pdf"
 * identifier
   * system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:3f69e0a5-2177-4540-baab-7a5d0877428f"
@@ -22,3 +26,30 @@ Usage: #example
 * attester[=].time = "2020-12-27T14:30:00+01:00"
 * attester[=].party.display = "Best Laboratory"
 * custodian.display = "Best Laboratory"
+Instance: enc-example
+InstanceOf: Encounter
+Title: "Encounter: example with legal status"
+Description: """Encounter: example with legal status."""
+Usage: #example
+* extension[EncounterLegalStatus].valueCodeableConcept = $sct#135848002 "Voluntary admission"
+* subject.display = "Nice Patient"
+* status = #finished
+* class = $v3-ActCode#IMP
+Instance: consent-example
+InstanceOf: Consent
+Title: "Consent: example with related condition"
+Description: """Consent: example with related condition."""
+Usage: #example
+* contained[+] = condition-example
+* extension[ConsentRelatedCondition].valueReference = Reference (condition-example)
+* status = #active
+* scope = http://terminology.hl7.org/CodeSystem/consentscope#treatment "Treatment"
+* category = $loinc#59284-0 	"Consent Document"
+* policyRule = http://terminology.hl7.org/CodeSystem/consentpolicycodes#cric "Common Rule Informed Consent"
+Instance: condition-example
+InstanceOf: Condition
+Title: "Condition: example with related condition"
+Description: """Condition: example with related condition."""
+Usage: #inline
+* code = $sct#431855005 "Chronic kidney disease stage 1"
+* subject.display = "Nice Patient"
