@@ -35,6 +35,16 @@
       }
     },
     {
+      "url" : "http://hl7.eu/fhir/StructureDefinition/medication-package-type",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "30009000",
+          "display" : "Box"
+        }]
+      }
+    },
+    {
       "extension" : [{
         "url" : "device",
         "valueCodeableConcept" : {
