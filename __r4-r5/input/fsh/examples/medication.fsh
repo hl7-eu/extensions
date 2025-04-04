@@ -1,7 +1,7 @@
 Instance: 04A-FirmagonBranded
 InstanceOf: Medication
-Title: "FIRMAGON"
-Description: "Example of Medication resource implementing most of the IHE MPD extensions, documented in this guide for R4"
+Title: "Medication: example with extensions."
+Description: "Example of Medication resource implementing the MPD extensions documented in this guide."
 Usage: #example
 
 [r4-init]

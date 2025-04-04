@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Extension: CompositionBasedOnOrderOrRequisition
 Id:   composition-basedOn-order-or-requisition
-Title:  "Document Based On Order"
+Title:  "Composition: Based On Order"
 Description: "This extension provides a link to the order [(Reference(ServiceRequest)] or requisition [ServiceRequest.requisition (i.e., 'Request.groupIdentifier')] that this report document is based on and fulfills."
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * insert SetFmmandStatusRule ( 2, trial-use )
@@ -12,7 +12,7 @@ Description: "This extension provides a link to the order [(Reference(ServiceReq
 
 Extension: InformationRecipient
 Id:   information-recipient
-Title: "Document Information recipient"
+Title: "Composition: Information recipient"
 Description: "This extension applies to the Composition resource and is used to represent an intended recipient of the composition."
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * insert ExtensionContext(Composition)

@@ -1,8 +1,8 @@
 [r4-init]
 Instance: medicationrequest-example
 InstanceOf: MedicationRequest
-Title: "MedicationRequest"
-Description: """MedicationRequest: example with IHE MPD extensions."""
+Title: "MedicationRequest: example with extensions."
+Description: """Example of MedicationRequest with extensions."""
 Usage: #example
 
 * meta.tag = $common-tags#actionable

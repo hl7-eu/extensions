@@ -1,7 +1,7 @@
 Instance: comp-example
 InstanceOf: Composition
-Title: "Composition: example with InformationRecipient and CompositionBasedOnOrderOrRequisition extensions"
-Description: """Composition: example with InformationRecipient and CompositionBasedOnOrderOrRequisition extensions."""
+Title: "Composition: example with extensions"
+Description: """Example of COmposition with InformationRecipient and CompositionBasedOnOrderOrRequisition extensions."""
 Usage: #example
 * extension[CompositionBasedOnOrderOrRequisition].valueIdentifier
   * system = "urn:oid:1.999.999.999"
@@ -37,8 +37,8 @@ Usage: #example
 
 Instance: enc-example
 InstanceOf: Encounter
-Title: "Encounter: example with legal status"
-Description: """Encounter: example with legal status."""
+Title: "Encounter: example with extensions."
+Description: """Example of Encounter with legal status."""
 Usage: #example
 
 * extension[EncounterLegalStatus].valueCodeableConcept = $sct#135848002 "Voluntary admission"
@@ -57,8 +57,8 @@ Usage: #example
 
 Instance: consent-example
 InstanceOf: Consent
-Title: "Consent: example with related condition"
-Description: """Consent: example with related condition."""
+Title: "Consent: example with extensions"
+Description: """Example of Consent with related condition."""
 Usage: #example
 
 * contained[+] = condition-example
@@ -74,8 +74,8 @@ Usage: #example
 
 Instance: condition-example
 InstanceOf: Condition
-Title: "Condition: example with related condition"
-Description: """Condition: example with related condition."""
+Title: "Condition: example"
+Description: """Condition: example."""
 Usage: #inline
 
 * code = $sct#431855005 "Chronic kidney disease stage 1"
