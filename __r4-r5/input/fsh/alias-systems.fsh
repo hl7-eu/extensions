@@ -1,6 +1,9 @@
 //============== ALIAS ===============
 
 // --- Code Systems
+
+Alias: $medicationknowledge-characteristic = http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic
+
 Alias: $absent-unknown-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 Alias: $ajcc = http://cancerstaging.org
 Alias: $atc = http://www.whocc.no/atc
@@ -8,6 +11,7 @@ Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-cat
 Alias: $data-absent-reason-cs =  http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: $diagnosis-role = http://terminology.hl7.org/CodeSystem/diagnosis-role
 Alias: $dicomOntology = http://dicom.nema.org/resources/ontology/DCM
+Alias: $common-tags = http://terminology.hl7.org/CodeSystem/common-tags
 Alias: $edqm = https://standardterms.edqm.eu
 Alias: $encounter-status = http://hl7.org/fhir/encounter-status
 Alias: $iccc3 = http://terminology.hl7.org/CodeSystem/iccc-3 // FAKE URL NOT YET ASSIGNED !!
