@@ -1,3 +1,4 @@
+[r4-init]
 Instance: medicationrequest-example
 InstanceOf: MedicationRequest
 Title: "MedicationRequest"
@@ -37,3 +38,5 @@ Usage: #example
 * dispenseRequest.validityPeriod.start = "2024-12-06"
 * dispenseRequest.validityPeriod.end = "2024-12-13"
 * substitution.allowedBoolean = true
+
+[r4-end]

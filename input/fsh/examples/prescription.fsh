@@ -3,10 +3,13 @@ InstanceOf: MedicationRequest
 Title: "MedicationRequest"
 Description: """MedicationRequest: example with IHE MPD extensions."""
 Usage: #example
+
 * meta.tag = $common-tags#actionable
+
 * extension[+].url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-offLabel"
 * extension[=].extension[+].url = "isOffLabelUse"
 * extension[=].extension[=].valueBoolean = false
+
 * status = #active
 * intent = #order
 * medicationReference = Reference(04A-FirmagonBranded)
@@ -34,3 +37,4 @@ Usage: #example
 * dispenseRequest.validityPeriod.start = "2024-12-06"
 * dispenseRequest.validityPeriod.end = "2024-12-13"
 * substitution.allowedBoolean = true
+

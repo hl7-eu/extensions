@@ -52,4 +52,5 @@ Title: "Condition: example with related condition"
 Description: """Condition: example with related condition."""
 Usage: #inline
 * code = $sct#431855005 "Chronic kidney disease stage 1"
+* clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"
 * subject.display = "Nice Patient"

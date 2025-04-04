@@ -207,11 +207,12 @@ menu:
 #     better option (see below).
 # The following are simple examples to demonstrate what this might
 # look like:
-resources:
-  Medication/04A-FirmagonBranded:
-    name: FIRMAGON
-    description: Example of Medication resource implementing most of the IHE MPD extensions, documented in this guide for R4
-    exampleBoolean: true
+# resources:
+#   Medication/04A-FirmagonBranded:
+#     name: FIRMAGON
+#     description: Example of Medication resource implementing most of the IHE MPD extensions, documented in this guide for R4
+#     exampleBoolean: true
+# 
 #  Patient/my-example-patient:
 #    name: My Example Patient
 #    description: An example Patient
