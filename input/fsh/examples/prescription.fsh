@@ -3,7 +3,6 @@ InstanceOf: MedicationRequest
 Title: "MedicationRequest"
 Description: """MedicationRequest: example with IHE MPD extensions."""
 Usage: #example
-* meta.profile = "http://hl7.eu/fhir/mpd/StructureDefinition/MedicationRequest-eu-mpd"
 * meta.tag = $common-tags#actionable
 * extension[+].url = "http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-offLabel"
 * extension[=].extension[+].url = "isOffLabelUse"

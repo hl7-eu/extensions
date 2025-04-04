@@ -1,3 +1,4 @@
+[r4-init]
 Instance: 04A-FirmagonBranded
 InstanceOf: Medication
 Title: "FIRMAGON"
@@ -40,3 +41,4 @@ Usage: #example
 * ingredient.strength.extension.valueCodeableConcept = $sct#441864003 "Degarelix"
 * ingredient.strength.numerator = 120 'mg' "milligram"
 * ingredient.strength.denominator = 1 http://standardterms.edqm.eu#15060000 "Vial"
+[r4-end]
