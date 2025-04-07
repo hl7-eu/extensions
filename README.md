@@ -19,7 +19,7 @@ To support this, a special directory called `__r4-r5` has been created — and i
 To **clone the repository with the submodule**, use:
 
 ```bash
-git clone --recurse-submodules https://github.com/hl7-eu/extensions.git
+git clone --recurse-submodules https://github.com/hl7-eu/extensions-multi-versions.git
 ```
 
 If you've already cloned the repository, you can initialize the submodule with:
@@ -38,7 +38,7 @@ This ensures the `__r4-r5` folder remains properly in sync across all guides usi
 
 This directory has the same structure used for the HL7 FHIR IGs (where __r4-r5 corresponds to the root directory), and includes all the source files containing R4 and R5 specific instructions.
 
-These "special" source files are pre proccesed by the python script preProcessRxBuild.py included in the 'scripts' folder and copied in the root directory. 
+These "special" source files are pre processed by the python script preProcessRxBuild.py included in the 'scripts' folder and copied in the root directory. 
 The script generates the appropriate source files for the HL7 FHIR version choosen.
 This script is documented [here](scripts/README.md).
 
