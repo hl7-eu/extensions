@@ -45,7 +45,6 @@ This script is documented [here](scripts/README.md).
 Any change in the source files that are present in both the root and in the '__r4-r5' folders MUST BE DONE updating the files in the '__r4-r5' folder.
 (Otherwise your changes will be overwritten)
 
-It is *strongly suggested* that changes on the source files are done in the base repository (currently the R4 guide), rebuilding the R5 version following this process.
 
 ![this process](change-mgmt.drawio.svg)
 
