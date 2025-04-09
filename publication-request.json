@@ -1,10 +1,14 @@
 {
   "package-id" : "hl7.fhir.eu.extensions",
-  "version" : "0.1.1",
-  "path" : "http://hl7.eu/fhir/extensions/0.1.1",
+  "version" : "0.1.0",
+  "path" : "http://hl7.eu/fhir/extensions/0.1.0",
   "status" : "trial-use",
   "sequence" : "Release",
+  "first": true,
   "mode": "milestone",
   "ci-build": "https://build.fhir.org/ig/hl7-eu/extensions",
-  "desc" : "Extensions package prepared for the HL7 EU MPD IG ballot"
+  "desc" : "This is the first STU version released",
+  "title" : "HL7 Europe Extensions",
+  "category" : "Extensions",
+  "introduction" : "This guide lists the extensions specified for the European REALM."
 }
