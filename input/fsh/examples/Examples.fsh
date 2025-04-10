@@ -4,7 +4,7 @@ Title: "Composition: example with extensions"
 Description: """Example of COmposition with InformationRecipient and CompositionBasedOnOrderOrRequisition extensions."""
 Usage: #example
 * extension[CompositionBasedOnOrderOrRequisition].valueIdentifier
-  * system = "urn:oid:1.999.999.999"
+  * system = "http://example.org"
   * value = "document-order-1"
 * extension[InformationRecipient].valueReference
   * display = "MUDr. Aleš Procházka"
