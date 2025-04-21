@@ -1,13 +1,13 @@
 id: hl7.fhir.eu.extensions
 canonical: http://hl7.eu/fhir/extensions
+fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions speciifed for the European REALM.
-status: active # draft | active | retired | unknown
-version: 0.1.1 # 
-fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+status: draft # draft | active | retired | unknown
+version: 0.1.1-ballot # 
 copyrightYear: 2023+
-releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # https://www.hl7.org/fhir/valueset-jurisdiction.html
 jurisdiction: 	http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe" # urn:iso:std:iso:3166#EU
@@ -22,9 +22,6 @@ copyright: >-
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-dependencies:  
- hl7.fhir.uv.ips: 1.1.0
-# hl7.terminology.r5: current
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
@@ -71,6 +68,10 @@ pages:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 #
 parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+
+  generate-version:
+    - r4
+    - r5
 #  produce-jekyll-data: true
   special-url:
     - http://hl7.eu/fhir/StructureDefinition/information-recipient
@@ -79,16 +80,6 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
     - http://hl7.eu/fhir/StructureDefinition/consent-relatedCondition
     - http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus
     - http://hl7.eu/fhir/StructureDefinition/presentedForm
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthtype
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-classification
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-characteristic
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity
-    - http://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-offLabel
 #    - http://hl7.eu/fhir/StructureDefinition/body-location-qualifier
 #    - http://hl7.eu/fhir/StructureDefinition/laterality-qualifier
 # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
@@ -99,6 +90,9 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
 #    - input/pagecontent
 #    - input/intro-notes
 #  active-tables: false
+
+
+
   apply-contact: true
   apply-jurisdiction: true
   apply-publisher: true
@@ -157,7 +151,7 @@ menu:
     Copyright: copyright.html
     Cross-version Analysis: crossversionanalysis.html
   Artifacts: artifacts.html
-  R5 IG: https://build.fhir.org/ig/hl7-eu/extensions-r5
+  # R4 IG: https://build.fhir.org/ig/hl7-eu/extensions
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │

@@ -7,3 +7,8 @@ ValueSet 'http://terminology.ehdsi.eu/ValueSet/eHDSIQuantityUnit' not found
 A definition for CodeSystem 'https://standardterms.edqm.eu' could not be found, so the code cannot be validated
 # r5 warnings
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 
+# url do not resolve
+URL value 'https://standardterms.edqm.eu' does not resolve
+URL value 'https://www.ravimiregister.ee' does not resolve
+# extensions already published
+The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
