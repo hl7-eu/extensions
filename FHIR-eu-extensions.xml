@@ -14,6 +14,7 @@
 <artifact id="Consent/consent-example" key="Consent-consent-example" name="Consent: example with extensions"/>
 <artifact id="StructureDefinition/encounter-legalStatus" key="StructureDefinition-encounter-legalStatus" name="Encounter: Legal Status"/>
 <artifact id="Encounter/enc-example" key="Encounter-enc-example" name="Encounter: example with extensions."/>
+<artifact id="StructureDefinition/immunization-nextDose" key="StructureDefinition-immunization-nextDose" name="Immunization: Next Dose Date"/>
 <artifact deprecated="true" id="StructureDefinition/ihe-ext-medication-characteristic" key="StructureDefinition-ihe-ext-medication-characteristic" name="Medication: Characteristic"/>
 <artifact deprecated="true" id="StructureDefinition/ihe-ext-medication-classification" key="StructureDefinition-ihe-ext-medication-classification" name="Medication: Classification"/>
 <artifact deprecated="true" id="StructureDefinition/ihe-ext-medication-device" key="StructureDefinition-ihe-ext-medication-device" name="Medication: Device"/>
