@@ -1,13 +1,9 @@
-# Temporary folders #
-#####################
-temp
-template
-output
-fsh-generated
-
-# Don't commit this because it's so large #
-###########################################
+/template
+/fsh-generated
 /input-cache
+/output
+/scripts
+/temp
 
 # Windows generated files #
 ###########################
@@ -35,3 +31,4 @@ Thumbs.db
 ################
 
 /scripts/config.json
+
