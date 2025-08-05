@@ -1,7 +1,7 @@
 Instance: comp-example
 InstanceOf: Composition
 Title: "Composition: example with extensions"
-Description: """Example of COmposition with InformationRecipient and CompositionBasedOnOrderOrRequisition extensions."""
+Description: """Example of Composition with InformationRecipient and CompositionBasedOnOrderOrRequisition extensions."""
 Usage: #example
 * extension[CompositionBasedOnOrderOrRequisition].valueIdentifier
   * system = "http://example.org"
