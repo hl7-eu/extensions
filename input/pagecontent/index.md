@@ -17,7 +17,7 @@ This includes extensions defined for HL7 Europe implementation guides, such as:
 
 This is an HL7 FHIR R5 Implementation Guide intended for generating packages for both HL7 FHIR R4 and R5.
 
-Release-specific NPM Package and Definitions can be downloaded from the [Download page](download.html) of this guide
+Release-specific NPM Package and Definitions can be downloaded from the [Download page](downloads.html) of this guide
 
 ### How to use this package
 
@@ -28,12 +28,12 @@ HL7 FHIR Implementation guides aiming to use the extensions defined by this guid
 
 ```yaml
 dependencies:
-  hl7.fhir.eu.extensions.r4: 0.1.1
+  hl7.fhir.eu.extensions.r4: 0.1.1-snapshot-1
 ```
 
 #### HL7 FHIR R5
 
 ```yaml
 dependencies:
-  hl7.fhir.eu.extensions.r5: 0.1.1
+  hl7.fhir.eu.extensions.r5: 0.1.1-snapshot-1
 ```

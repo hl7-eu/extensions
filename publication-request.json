@@ -1,10 +1,10 @@
 {
   "package-id" : "hl7.fhir.eu.extensions",
-  "version" : "0.1.1",
-  "path" : "http://hl7.eu/fhir/extensions/0.1.1",
+  "version" : "0.1.1-snapshot",
+  "path" : "http://hl7.eu/fhir/extensions/0.1.1-snapshot",
   "ci-build": "https://build.fhir.org/ig/hl7-eu/extensions",
-  "desc" : "Version used for the HL7 EU MPD ballot. First version for HL7 FHIR R4 and R5.",
-  "status" : "trial-use",
+  "desc" : "Snapshot for allowing Imaging report snappshot publication.",
+  "status" : "preview",
   "sequence" : "Release",
-  "mode": "milestone"
+  "mode": "working"
 }

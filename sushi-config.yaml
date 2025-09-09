@@ -5,7 +5,7 @@ name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions speciifed for the European REALM.
 status: draft # draft | active | retired | unknown
-version: 0.1.1-ballotRecon # 
+version: 0.1.1-snapshot-1 # 
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
@@ -56,6 +56,8 @@ pages:
     title: Known Issues
   introduction.md:
     title: Introduction
+  changes.md:
+    title: Change Log
  #  recommendations.md:
 #    title: Recommendations
 #
@@ -149,6 +151,7 @@ menu:
     Download: downloads.html
     Dependencies: dependencies.html
     Copyright: copyright.html
+    Change Log: changes.html
     Cross-version Analysis: crossversionanalysis.html
   Artifacts: artifacts.html
   # R4 IG: https://build.fhir.org/ig/hl7-eu/extensions
