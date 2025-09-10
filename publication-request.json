@@ -3,7 +3,7 @@
   "version" : "0.1.1-snapshot",
   "path" : "http://hl7.eu/fhir/extensions/0.1.1-snapshot",
   "ci-build": "https://build.fhir.org/ig/hl7-eu/extensions",
-  "desc" : "Snapshot for allowing Imaging report snappshot publication.",
+  "desc" : "Snapshot for allowing Imaging report snapshot publication.",
   "status" : "preview",
   "sequence" : "Release",
   "mode": "working"
