@@ -1,6 +1,6 @@
 // --------------------------------------------------
 ValueSet: ExampleLegalStatusVS
-Id: example-legal-status-eu-hdr
+Id: example-legal-status-vs
 Title: "Example of Legal Status at admission"
 Description: "This is an example value set representing the Legal status / Situation at admission."
 * insert SetFmmAndStatusRule (1, draft)
