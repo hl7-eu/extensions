@@ -2,7 +2,7 @@ Extension: PeriodsOfLife
 Id: periods-of-life
 Title: "Periods of Life"
 Description: "Extensions used to indicate a time period in a person's life as a reference to a coded value for that life period."
-Context: Age or Range.low or Range.high or Period
+Context: Age, Period, Range.low, Range.high
 * value[x] only CodeableConcept
-* valueCodeableConcept from PeriodsOfLifeValueSet (preferred)
+* valueCodeableConcept from PeriodsOfLifeVS (preferred)
 
