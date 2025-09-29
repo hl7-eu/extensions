@@ -7,4 +7,4 @@ Context: Encounter
 * insert SetFmmandStatusRule ( 1, draft ) // to be changed after the ballot
 * ^url = "http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus"
 * value[x] only CodeableConcept
-// ==>  ADD EXAMPLE VALUE SET
+* value[x] from ExampleLegalStatusVS (example)

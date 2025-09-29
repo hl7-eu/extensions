@@ -5,7 +5,7 @@ name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions specified for the European REALM.
 status: draft # draft | active | retired | unknown
-version: 0.1.1-snapshot # 
+version: 0.1.1-ci-build # 
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
