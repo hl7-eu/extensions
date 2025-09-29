@@ -17,7 +17,8 @@ publisher:
   # url: http://hl7.org/Special/committees/eu
   # email: test@example.org
 copyright: >-
-  Used by permission of HL7 Europe, all rights reserved Creative Commons License
+  Copyright HL7 Europe. Licensed under Creative Commons public domain (CC0 1.0).
+license: CC0-1.0
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
@@ -54,10 +55,12 @@ pages:
     title: Dependencies
   knownissues.md:
     title: Known Issues
-  introduction.md:
-    title: Introduction
+  scope.md:
+    title: Scope and Content
   changes.md:
     title: Change Log
+  design.md:
+    title: Design Choices
  #  recommendations.md:
 #    title: Recommendations
 #
@@ -132,7 +135,9 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Introduction: introduction.html
+  Introduction: 
+    Scope and Content: scope.html
+    Design Choices: design.html
 #    Scope and Content: scope.html
 #    Background: background.html
 #    Challenges: challenges.html
