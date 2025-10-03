@@ -1,5 +1,3 @@
-### Design Choices for EU Extensions
-
 This page describes the design choices that guided the creation of this guide aiming to:
 
 * **Promote reuse** of FHIR artefacts across different European Implementation Guides and projects.
@@ -11,7 +9,7 @@ These extensions are **not tied to a single use case or Implementation Guide** (
 
 ---
 
-#### Scope of Extensions
+### Scope of Extensions
 
 The guide includes extensions that:
 
@@ -25,7 +23,7 @@ The guide includes extensions that:
    Extensions address common requirements emerging from EU legislation (such as the **European Health Data Space**) and aim to support practices that could be beneficial in other regions.
 
 
-#### Excluded Extensions
+### Excluded Extensions
 
 This IG **does not include**:
 
@@ -35,7 +33,7 @@ This IG **does not include**:
 
 ---
 
-#### Alignment with European and International Efforts
+### Alignment with European and International Efforts
 
 The EU Extensions are developed in close alignment with:
 
@@ -46,6 +44,6 @@ The EU Extensions are developed in close alignment with:
 
 ---
 
-#### Future Evolution
+### Future Evolution
 
 This IG is intended as a **living specification**. As new requirements are identified across European use cases and as global collaboration on interoperable health data exchange progresses, the set of EU Extensions will be reviewed and updated in collaboration with the European and international FHIR communities.
