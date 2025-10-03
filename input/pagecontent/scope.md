@@ -50,17 +50,7 @@ This guide aims to:
         <p>This extension applies to the Composition resource and is used to represent an intended recipient of the composition.</p>
       </td>
       <td>Composition</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="StructureDefinition-presentedForm.html"
-           title="StructureDefinition/presentedForm">Composition: Presented Form</a>
-      </td>
-      <td>
-        <p>Human readable representation of the entire document. Multiple formats are allowed but they SHALL be semantically equivalent.</p>
-      </td>
-      <td>Composition</td>
-    </tr>
+    </tr>    
     <tr>
       <td>
         <a href="StructureDefinition-consent-relatedCondition.html"
