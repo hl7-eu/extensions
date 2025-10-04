@@ -9,7 +9,7 @@
 <artifactPageExtension value="-mappings"/>
 <artifact id="StructureDefinition/composition-basedOn-order-or-requisition" key="StructureDefinition-composition-basedOn-order-or-requisition" name="Composition: Based On Order"/>
 <artifact id="StructureDefinition/information-recipient" key="StructureDefinition-information-recipient" name="Composition: Information recipient"/>
-<artifact id="StructureDefinition/presentedForm" key="StructureDefinition-presentedForm" name="Composition: Presented Form"/>
+<artifact deprecated="true" id="StructureDefinition/presentedForm" key="StructureDefinition-presentedForm" name="Composition: Presented Form"/>
 <artifact id="Composition/comp-example" key="Composition-comp-example" name="Composition: example with extensions"/>
 <artifact id="StructureDefinition/consent-relatedCondition" key="StructureDefinition-consent-relatedCondition" name="Consent: Related Condition"/>
 <artifact id="Consent/consent-example" key="Consent-consent-example" name="Consent: example with extensions"/>

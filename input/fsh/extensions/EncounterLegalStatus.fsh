@@ -6,5 +6,5 @@ Description: """Legal status/situation at admission. This extension may be used 
 Context: Encounter
 * insert SetFmmandStatusRule ( 1, draft ) // to be changed after the ballot
 * ^url = "http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus"
-* value[x] only CodeableConcept
+* value[x] only CodeableReference
 * value[x] from ExampleLegalStatusVS (example)

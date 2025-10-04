@@ -8,10 +8,10 @@ Usage: #example
   * value = "document-order-1"
 * extension[InformationRecipient].valueReference
   * display = "MUDr. Aleš Procházka"
-* extension[DocumentPresentedForm].valueAttachment
+/* * extension[DocumentPresentedForm].valueAttachment
   * contentType = #application/pdf
   * url = "http://example.org/attachment.pdf"
-  * title = "Attachment.pdf"
+  * title = "Attachment.pdf" */
 * identifier
   * system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:3f69e0a5-2177-4540-baab-7a5d0877428f"
@@ -30,7 +30,8 @@ InstanceOf: Encounter
 Title: "Encounter: example with extensions."
 Description: """Example of Encounter with legal status."""
 Usage: #example
-* extension[EncounterLegalStatus].valueCodeableConcept = $sct#135848002 "Voluntary admission"
+// * extension[EncounterLegalStatus].valueCodeableConcept = $sct#135848002 "Voluntary admission"
+* extension[EncounterLegalStatus].valueCodeableReference.concept = $sct#135848002 "Voluntary admission"
 * subject.display = "Nice Patient"
 * status = #completed 
 * class = $v3-ActCode#IMP
