@@ -1,2 +1,2 @@
 
-{% include cross-version-analysis-en.xhtml %}
+{% include cross-version-analysis.xhtml %}
