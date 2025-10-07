@@ -8,3 +8,5 @@ Context: Encounter
 * ^url = "http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus"
 * value[x] only CodeableReference
 * value[x] from ExampleLegalStatusVS (example)
+/* * valueCodeableReference only Reference(Condition)
+* valueCodeableReference.concept 1.. */
