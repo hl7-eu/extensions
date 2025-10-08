@@ -25,16 +25,19 @@ Usage: #example
 * attester[=].time = "2020-12-27T14:30:00+01:00"
 * attester[=].party.display = "Best Laboratory"
 * custodian.display = "Best Laboratory"
+
 Instance: enc-example
 InstanceOf: Encounter
 Title: "Encounter: example with extensions."
 Description: """Example of Encounter with legal status."""
 Usage: #example
-// * extension[EncounterLegalStatus].valueCodeableConcept = $sct#135848002 "Voluntary admission"
-* extension[EncounterLegalStatus].valueCodeableReference.concept = $sct#135848002 "Voluntary admission"
+* extension[EncounterLegalStatus].extension[_datatype].valueString = "CodeableReference"
+* extension[EncounterLegalStatus].extension[concept].valueCodeableConcept = $sct#135848002 "Voluntary admission"
+* extension[EncounterLegalStatus].extension[reference].valueReference = Reference(Condition/forensic-status)
 * subject.display = "Nice Patient"
 * status = #completed 
 * class = $v3-ActCode#IMP
+
 Instance: consent-example
 InstanceOf: Consent
 Title: "Consent: example with extensions"
@@ -44,6 +47,7 @@ Usage: #example
 * extension[ConsentRelatedCondition].valueReference = Reference (condition-example)
 * status = #active
 * category = $loinc#59284-0 	"Consent Document"
+
 Instance: condition-example
 InstanceOf: Condition
 Title: "Condition: example"

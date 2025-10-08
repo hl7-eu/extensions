@@ -6,7 +6,17 @@ Description: """Legal status/situation at admission. This extension may be used 
 Context: Encounter
 * insert SetFmmandStatusRule ( 1, draft ) // to be changed after the ballot
 * ^url = "http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus"
-* value[x] only CodeableReference
-* value[x] from ExampleLegalStatusVS (example)
-* valueCodeableReference only CodeableReference(Condition)
-* valueCodeableReference.concept 1..
+
+/* _datatype slice */
+* extension contains _datatype 1..1 and concept 1..1 and reference 0..1
+* extension[_datatype].url = "_datatype" (exactly)
+* extension[_datatype].valueString = "CodeableReference" (exactly)
+
+/* concept slice with Binding */
+* extension[concept].url = "concept" (exactly)
+* extension[concept].valueCodeableConcept 1..1
+* extension[concept].valueCodeableConcept from ExampleLegalStatusVS (example)
+
+/* reference slice only Reference(Condition) */
+* extension[reference].url = "reference" (exactly)
+* extension[reference].valueReference only Reference(Condition)
