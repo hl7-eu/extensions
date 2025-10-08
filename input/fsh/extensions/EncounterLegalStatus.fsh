@@ -9,4 +9,4 @@ Context: Encounter
 * value[x] only CodeableReference
 * value[x] from ExampleLegalStatusVS (example)
 * valueCodeableReference only CodeableReference(Condition)
-// * valueCodeableReference.concept 1..
+* valueCodeableReference.concept 1..

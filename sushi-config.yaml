@@ -19,6 +19,9 @@ publisher:
 copyright: >-
   Copyright HL7 Europe. Licensed under Creative Commons public domain (CC0 1.0).
 license: CC0-1.0
+
+dependencies:
+  hl7.fhir.uv.xver-r5.r4: 0.0.1-snapshot-2
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
