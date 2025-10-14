@@ -8,6 +8,8 @@ Usage: #example
   * value = "document-order-1"
 * extension[InformationRecipient].valueReference
   * display = "MUDr. Aleš Procházka"
+* extension[DiagnosticReportReference].valueReference
+  * display = "My Laboratory Report Test"
 /* * extension[DocumentPresentedForm].valueAttachment
   * contentType = #application/pdf
   * url = "http://example.org/attachment.pdf"
@@ -31,7 +33,7 @@ Title: "Encounter: example with extensions."
 Description: """Example of Encounter with legal status."""
 Usage: #example
 // * extension[EncounterLegalStatus].valueCodeableConcept = $sct#135848002 "Voluntary admission"
-* extension[EncounterLegalStatus].valueCodeableReference.concept = $sct#135848002 "Voluntary admission"
+* extension[EncounterLegalStatus].valueCodeableReference = $sct#135848002 "Voluntary admission"
 * subject.display = "Nice Patient"
 * status = #completed 
 * class = $v3-ActCode#IMP
@@ -46,9 +48,11 @@ Usage: #example
 * category = $loinc#59284-0 	"Consent Document"
 Instance: condition-example
 InstanceOf: Condition
-Title: "Condition: example"
-Description: """Condition: example."""
-Usage: #inline
+Title: "Condition: example with extensions"
+Description: """Example of Condition with periodOfLife extensions."""
+Usage: #example
 * code = $sct#431855005 "Chronic kidney disease stage 1"
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"
 * subject.display = "Nice Patient"
+* onsetAge = 40 'a'
+  * extension[PeriodsOfLife].valueCodeableConcept = $sct#41847000	"Adulthood"

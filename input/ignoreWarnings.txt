@@ -2,13 +2,14 @@
 # the SCT edition used is OK
 The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 # Terminology assets not found in tx
-ValueSet 'http://terminology.ehdsi.eu/ValueSet/eHDSIPackage' not found
-ValueSet 'http://terminology.ehdsi.eu/ValueSet/eHDSIQuantityUnit' not found
 A definition for CodeSystem 'https://standardterms.edqm.eu' could not be found, so the code cannot be validated
 # r5 warnings
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 
-# url do not resolve
-URL value 'https://standardterms.edqm.eu' does not resolve
-URL value 'https://www.ravimiregister.ee' does not resolve
-# extensions already published
-The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+
+# No definition found
+No definition could be found for URL value 'https://www.ravimiregister.ee'
+No definition could be found for URL value 'https://standardterms.edqm.eu'
+
+# no mixed FSN and preferred terms
+This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Hospital admission, by legal authority (commitment)] and examples for no FSN: [Voluntary admission, Involuntary admission, Involuntary hospital admission])

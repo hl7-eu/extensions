@@ -28,12 +28,12 @@ HL7 FHIR Implementation guides aiming to use the extensions defined by this guid
 
 ```yaml
 dependencies:
-  hl7.fhir.eu.extensions.r4: 0.1.1-snapshot
+  hl7.fhir.eu.extensions.r4: 0.1.1
 ```
 
 #### HL7 FHIR R5
 
 ```yaml
 dependencies:
-  hl7.fhir.eu.extensions.r5: 0.1.1-snapshot
+  hl7.fhir.eu.extensions.r5: 0.1.1
 ```

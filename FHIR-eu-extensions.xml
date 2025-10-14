@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.eu/fhir/extensions/0.1.1-ballot" ciUrl="https://build.fhir.org/ig/hl7-eu/extensions" defaultVersion="0.1.0" defaultWorkgroup="eu" gitUrl="https://github.com/HL7-eu/extensions" url="http://hl7.eu/fhir/extensions">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.eu/fhir/extensions/0.1.1-ballot" ciUrl="https://build.fhir.org/ig/hl7-eu/extensions" defaultVersion="0.1.1" defaultWorkgroup="eu" gitUrl="https://github.com/HL7-eu/extensions" url="http://hl7.eu/fhir/extensions">
 <version code="current" url="https://build.fhir.org/ig/hl7-eu/extensions"/>
-<version code="0.1.1-snapshot" url="http://hl7.eu/fhir/extensions/0.1.1-snapshot"/>
-<version code="0.1.1-ballot" deprecated="true" url="http://hl7.eu/fhir/extensions/0.1.1-ballot"/>
+<version code="0.1.1" url="http://hl7.eu/fhir/extensions/0.1.1"/>
+<version code="0.1.1-ballot" url="http://hl7.eu/fhir/extensions/0.1.1-ballot"/>
 <version code="0.1.0" url="http://hl7.eu/fhir/extensions/0.1.0"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
@@ -11,6 +11,7 @@
 <artifact id="StructureDefinition/information-recipient" key="StructureDefinition-information-recipient" name="Composition: Information recipient"/>
 <artifact deprecated="true" id="StructureDefinition/presentedForm" key="StructureDefinition-presentedForm" name="Composition: Presented Form"/>
 <artifact id="Composition/comp-example" key="Composition-comp-example" name="Composition: example with extensions"/>
+<artifact id="Condition/condition-example" key="Condition-condition-example" name="Condition: example with extensions"/>
 <artifact id="StructureDefinition/consent-relatedCondition" key="StructureDefinition-consent-relatedCondition" name="Consent: Related Condition"/>
 <artifact id="Consent/consent-example" key="Consent-consent-example" name="Consent: example with extensions"/>
 <artifact id="StructureDefinition/composition-diagnosticReportReference" key="StructureDefinition-composition-diagnosticReportReference" name="Document DiagnosticReport Reference"/>
