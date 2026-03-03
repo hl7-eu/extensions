@@ -1,7 +1,7 @@
 // --------------------------------------------------
 ValueSet: ExampleLegalStatusVS
 Id: example-legal-status-vs
-Title: "Example of Legal Status at admission"
+Title: "Example of Legal Status at admission Value Set"
 Description: "This is an example value set representing the Legal status / Situation at admission."
 * insert SetFmmandStatusRule ( 2, trial-use )
 * insert SNOMEDCopyrightForVS
