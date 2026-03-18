@@ -4,7 +4,7 @@ This page summarizes the main changes applied to this version of the guide.
 
 * New Anatomical Region extension (FHIR-55635)
 * Extended the context of the PeriodsOfLife extension to Range(FHIR-55976)
-* Removed the ist of extensions from the scope page
+* Removed the list of extensions from the scope page
 
 ### 0.1.1 to 1.2.0
 
