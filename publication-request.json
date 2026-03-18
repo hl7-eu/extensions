@@ -1,9 +1,9 @@
 {
   "package-id" : "hl7.fhir.eu.extensions",
-  "version" : "1.2.0",
-  "path" : "http://hl7.eu/fhir/extensions/1.2.0",
-  "desc" : "This publication is the 1.2 release, which incorporates minor changes on the Periods of Life and Information Recipient extensions.",
-  "descmd" : "This publication is the 1.2 release, which incorporates minor changes on the Periods of Life and Information Recipient extensions.",
+  "version" : "1.3.0",
+  "path" : "http://hl7.eu/fhir/extensions/1.3.0",
+  "desc" : "This minor release incorporates minor changes on the Periods of Life extension and a new extension for Anatomical Region.",
+  "descmd" : "This minor release incorporates minor changes on the Periods of Life extension and a new extension for Anatomical Region.",
   "status" : "trial-use",
   "sequence" : "Release",
   "mode": "milestone",

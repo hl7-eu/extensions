@@ -32,6 +32,7 @@
 <artifact deprecated="true" id="StructureDefinition/ihe-ext-offLabel" key="StructureDefinition-ihe-ext-offLabel" name="MedicationRequest: Off-label use"/>
 <artifact deprecated="true" id="StructureDefinition/ihe-ext-medicationrequest-prescribedQuantity" key="StructureDefinition-ihe-ext-medicationrequest-prescribedQuantity" name="MedicationRequest: Prescribed Quantity"/>
 <artifact deprecated="true" id="MedicationRequest/medicationrequest-example" key="MedicationRequest-medicationrequest-example" name="MedicationRequest: example with extensions."/>
+<artifact id="StructureDefinition/anatomical-region" key="StructureDefinition-anatomical-region" name="Multi: Anatomical Region"/>
 <artifact id="ValueSet/periods-of-life-vs" key="ValueSet-periods-of-life-vs" name="Periods of Life Value Set"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>

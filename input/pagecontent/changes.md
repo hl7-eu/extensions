@@ -1,5 +1,10 @@
 This page summarizes the main changes applied to this version of the guide.
 
+### 1.3.0 to 1.2.0
+
+* New Anatomical Region extension (FHIR-55635)
+* Extended the context of the PeriodsOfLife extension to Range(FHIR-55976)
+
 ### 0.1.1 to 1.2.0
 
 * Extended the context of the PeriodsOfLife extension to dateTime (FHIR-53551)
