@@ -16,6 +16,7 @@
 <artifact id="Condition/condition-example" key="Condition-condition-example" name="Condition: example with extensions"/>
 <artifact id="StructureDefinition/consent-relatedCondition" key="StructureDefinition-consent-relatedCondition" name="Consent: Related Condition"/>
 <artifact id="Consent/consent-example" key="Consent-consent-example" name="Consent: example with extensions"/>
+<artifact id="DiagnosticReport/DiagnosticReportStructured" key="DiagnosticReport-DiagnosticReportStructured" name="DiagnosticReport: structured report"/>
 <artifact id="StructureDefinition/composition-diagnosticReportReference" key="StructureDefinition-composition-diagnosticReportReference" name="Document DiagnosticReport Reference"/>
 <artifact id="StructureDefinition/encounter-legalStatus" key="StructureDefinition-encounter-legalStatus" name="Encounter: Legal Status"/>
 <artifact id="Encounter/enc-example" key="Encounter-enc-example" name="Encounter: example with extensions."/>
