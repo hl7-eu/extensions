@@ -13,3 +13,6 @@ No definition could be found for URL value 'https://standardterms.edqm.eu'
 
 # no mixed FSN and preferred terms
 This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Hospital admission, by legal authority (commitment)] and examples for no FSN: [Voluntary admission, Involuntary admission, Involuntary hospital admission])
+
+# DiagnosticReport code from ama-assn.org and not from LOINC
+None of the codings provided are in the value set 'LOINC Diagnostic Report Codes' (http://hl7.org/fhir/ValueSet/report-codes|5.0.0), and a coding is recommended to come from this value set (codes = http://www.ama-assn.org/go/cpt#93351)

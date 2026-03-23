@@ -5,9 +5,9 @@ name:  Hl7EuExtensions
 title: HL7 Europe Extensions
 description: This guide lists the extensions specified for the European REALM.
 status: active # draft | active | retired | unknown
-version: 1.2.1-ci-build # 
+version: 1.3.0 # 
 copyrightYear: 2023+
-releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # https://www.hl7.org/fhir/valueset-jurisdiction.html
 jurisdiction: 	http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe" # urn:iso:std:iso:3166#EU
@@ -88,6 +88,7 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
     - http://hl7.eu/fhir/StructureDefinition/consent-relatedCondition
     - http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus
     - http://hl7.eu/fhir/StructureDefinition/presentedForm
+    - http://hl7.eu/fhir/StructureDefinition/anatomical-region
 #    - http://hl7.eu/fhir/StructureDefinition/body-location-qualifier
 #    - http://hl7.eu/fhir/StructureDefinition/laterality-qualifier
 # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
