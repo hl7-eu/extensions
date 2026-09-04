@@ -5,7 +5,7 @@ This page summarizes the main changes applied to this version of the guide.
 * Clarified the description of the Encounter Legal Status extension (FHIR-56354)
 * Moved the Laboratory Accredited extension from the Laboratory IG (FHIR-56516)
 
-### 1.3.0 to 1.2.0
+### 1.2.0 to 1.3.0
 
 * New Anatomical Region extension (FHIR-55635)
 * Extended the context of the PeriodsOfLife extension to Range(FHIR-55976)
