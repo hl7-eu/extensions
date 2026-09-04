@@ -17,4 +17,18 @@ Description: "This extension applies to the Composition resource and is used to 
 * insert ExtensionContext(Composition)
 * insert SetFmmandStatusRule ( 2, trial-use )
 * ^url = "http://hl7.eu/fhir/StructureDefinition/information-recipient"
-* value[x] only Reference (Practitioner or Device or Patient or RelatedPerson or PractitionerRole or Organization or CareTeam or Group)	
+* value[x] only Reference (Practitioner or Device or Patient or RelatedPerson or PractitionerRole or Organization or CareTeam or Group)
+
+// moved from the HL7 Europe Laboratory Report IG, canonical and content unchanged (FHIR-56516)
+Extension: LaboratoryAccredited
+Id:   laboratory-accredited
+Title:  "Many: Laboratory Accredited"
+Description: """Simple accreditation extension.
+For Observation it indicates that the laboratory test was/is accredited.
+For ServiceRequest it indicates that the request shall be fulfilled by an accredited laboratory."""
+Context: Observation, ServiceRequest
+* insert SetFmmandStatusRule ( 2, trial-use )
+* ^url = "http://hl7.eu/fhir/StructureDefinition/laboratory-accredited"
+* value[x] only boolean
+* valueBoolean 1..1
+
