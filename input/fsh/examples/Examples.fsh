@@ -56,3 +56,16 @@ Usage: #example
 * subject.display = "Nice Patient"
 * onsetAge = 40 'a'
   * extension[PeriodsOfLife].valueCodeableConcept = $sct#41847000	"Adulthood"
+
+Instance: obs-laboratory-accredited-example
+InstanceOf: Observation
+Title: "Observation: result from an accredited laboratory"
+Description: """Example of an Observation carrying the LaboratoryAccredited extension, which states that the test was performed by an accredited laboratory. The extension came to this guide from the HL7 Europe Laboratory Report IG with FHIR-56516."""
+Usage: #example
+* extension[LaboratoryAccredited].valueBoolean = true
+* status = #final
+* code = $loinc#14749-6 "Glucose [Moles/volume] in Serum or Plasma"
+* subject.display = "Nice Patient"
+* effectiveDateTime = "2026-04-08T08:20:00+02:00"
+* performer.display = "Best Laboratory"
+* valueQuantity = 5.4 'mmol/L' "mmol/L"
