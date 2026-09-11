@@ -1,9 +1,11 @@
 This page summarizes the main changes applied to this version of the guide.
 
-### 1.3.0 to 1.4.0
+### 1.3.0 to 1.3.1
 
-* Clarified the description of the Encounter Legal Status extension (FHIR-56354)
-* Moved the Laboratory Accredited extension from the Laboratory IG (FHIR-56516)
+Version 1.3.1 is a technical correction of the 1.3.0 release. Neither change alters what implementers exchange.
+
+* Clarified the description of the Encounter Legal Status extension, which described the basis on which the patient is staying rather than the legal status of the admission (FHIR-56354)
+* Took over the Laboratory Accredited extension from the HL7 Europe Laboratory Report IG (FHIR-56516). An extension of general applicability belongs in this guide; its canonical `http://hl7.eu/fhir/StructureDefinition/laboratory-accredited` and its content are unchanged, so instances using it keep validating, against this package instead of that one. The counterpart in the Laboratory Report IG is FHIR-57043.
 
 ### 1.2.0 to 1.3.0
 
