@@ -28,12 +28,12 @@ HL7 FHIR Implementation guides aiming to use the extensions defined by this guid
 
 ```yaml
 dependencies:
-  hl7.fhir.eu.extensions.r4: 1.3.0
+  hl7.fhir.eu.extensions.r4: {{site.data.fhir.igVer}}
 ```
 
 #### HL7 FHIR R5
 
 ```yaml
 dependencies:
-  hl7.fhir.eu.extensions.r5: 1.3.0
+  hl7.fhir.eu.extensions.r5: {{site.data.fhir.igVer}}
 ```
